@@ -14,7 +14,7 @@ public class counter : MonoBehaviour
     void OnCollisionEnter2D(Collision2D coll)
     {
        
-        if (coll.gameObject.tag == "coin")
+        if (coll.gameObject.tag == "Coin")
         {
             Counter++;
             Debug.Log("counter " + Counter);
