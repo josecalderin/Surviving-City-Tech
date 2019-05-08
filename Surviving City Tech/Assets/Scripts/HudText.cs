@@ -16,5 +16,6 @@ public class HudText : MonoBehaviour
     void Update()
     {
         score.text = "Credits: " + scoreValue;
+        PlayerPrefs.SetInt("Player GPA", scoreValue);
     }
 }

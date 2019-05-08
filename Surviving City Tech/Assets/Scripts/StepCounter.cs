@@ -10,11 +10,15 @@ public class StepCounter : MonoBehaviour
 
     void Start()
     {
+        //stepCount = PlayerPrefs.GetInt("Player GPA");
         steps = GetComponent<Text>();
+        //DontDestroyOnLoad(gameObject);
     }
 
     void Update()
     {
         steps.text = "GPA: " + stepCount;
+        PlayerPrefs.SetInt("Player GPA", stepCount);
+        
     }
 }
