@@ -29,7 +29,7 @@ public class shadowmove : MonoBehaviour {
         }
         if (other.tag == "Boss")
         {
-            GameFlow.currentDamage = 10;
+            GameFlow.currentDamage = 5;
             Destroy(gameObject);
 
         }

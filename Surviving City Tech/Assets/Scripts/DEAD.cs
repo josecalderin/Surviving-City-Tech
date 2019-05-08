@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DEAD : MonoBehaviour
 {
@@ -16,9 +17,8 @@ public class DEAD : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(GameObject.FindWithTag("Player"));
+            SceneManager.LoadScene("You Lose");
         }
-        else if(collision.gameObject.tag == "enemy") { 
-            Destroy(GameObject.FindWithTag("enemy"));
-        }
+
     }
 }

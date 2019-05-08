@@ -19,6 +19,10 @@ public class change : MonoBehaviour
             {
                 SceneManager.LoadScene("Boss Fight");
             }
+            if (StepCounter.stepCount < 200)
+            {
+            SceneManager.LoadScene("You Lose");
+            }
         }
     
 }

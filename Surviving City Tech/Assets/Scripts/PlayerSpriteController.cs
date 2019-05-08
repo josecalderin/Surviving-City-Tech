@@ -2,6 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class PlayerSpriteController : MonoBehaviour {
 
@@ -69,6 +70,17 @@ public class PlayerSpriteController : MonoBehaviour {
             anim.SetFloat("MoveX", 0f);
             anim.SetBool("PlayerMoving", playerMoving);
         }
+    }
+    void OnParticleCollision(GameObject other)
+    {
+
+        if (other.tag == "Bossatt")
+        {
+            Debug.Log("hit  me");
+            Destroy(gameObject);
+            SceneManager.LoadScene("You Lose");
+        }
+
     }
 
 }
