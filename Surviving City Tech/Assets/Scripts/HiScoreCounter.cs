@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class HiScoreCounter : MonoBehaviour
 {
 
-    public static int HiScoreValue = 1;
+    public static int HiScoreValue;
     Text hiScore;
-    // Start is called before the first frame update
+   
     void Start()
     {
-        hiScore = GetComponent<Text>();
+        hiScore = GetComponent<Text> ();
     }
 
     // Update is called once per frame

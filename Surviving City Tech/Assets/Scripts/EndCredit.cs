@@ -18,6 +18,5 @@ public class EndCredit : MonoBehaviour
     {
         score.text = "Credits: " + Endcredit;
         
-
     }
 }
