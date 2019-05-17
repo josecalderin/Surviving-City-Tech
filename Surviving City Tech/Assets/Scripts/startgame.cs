@@ -18,5 +18,9 @@ public class startgame : MonoBehaviour
         {
             SceneManager.LoadScene("instructions");
         }
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 }

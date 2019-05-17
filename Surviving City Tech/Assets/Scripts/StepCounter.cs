@@ -17,8 +17,9 @@ public class StepCounter : MonoBehaviour
 
     void Update()
     {
+        
         steps.text = "GPA: " + stepCount;
-        PlayerPrefs.SetInt("Player GPA", stepCount);
+        //PlayerPrefs.SetInt("Player GPA", stepCount);
         
     }
 }

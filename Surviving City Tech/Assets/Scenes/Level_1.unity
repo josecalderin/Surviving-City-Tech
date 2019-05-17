@@ -1990,7 +1990,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 76.553276, y: -9.276587}
+  m_Offset: {x: 64.1113, y: -9.276587}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2001,7 +2001,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 192.8528, y: 1.5549355}
+  m_Size: {x: 217.73676, y: 1.5549355}
   m_EdgeRadius: 0
 --- !u!4 &331965920
 Transform:
@@ -10435,12 +10435,32 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 48250107273443752, guid: c13995274f8008643a98f4cebbad0e87,
+    - target: {fileID: 48250108781167294, guid: c13995274f8008643a98f4cebbad0e87,
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 48250108781167294, guid: c13995274f8008643a98f4cebbad0e87,
+    - target: {fileID: 48250108781167288, guid: c13995274f8008643a98f4cebbad0e87,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -449.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 48250108781167288, guid: c13995274f8008643a98f4cebbad0e87,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 212.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 48250107273443754, guid: c13995274f8008643a98f4cebbad0e87,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -241.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 48250107273443754, guid: c13995274f8008643a98f4cebbad0e87,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 212.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 48250107273443752, guid: c13995274f8008643a98f4cebbad0e87,
         type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 30

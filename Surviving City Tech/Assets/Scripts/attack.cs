@@ -17,7 +17,7 @@ public class attack : MonoBehaviour
     {
         var posX = gameObject.transform.position.x;
         var posY = gameObject.transform.position.y;
-        if (Input.GetKeyDown("1") && HudText.scoreValue >= 1)
+        if (Input.GetKeyDown(KeyCode.Space) && HudText.scoreValue >= 1)
         {
             GetComponent<Transform>().position = new Vector2(posX, posY);
             Instantiate(rangeattack, new Vector2((posX+1.0f), (posY-.25f)), rangeattack.rotation);

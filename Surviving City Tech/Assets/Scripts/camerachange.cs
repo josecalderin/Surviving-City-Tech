@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class camerachange : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,8 @@ public class camerachange : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             SceneManager.LoadScene("Level_1");
+
+            
         }
     }
 }

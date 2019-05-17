@@ -18,11 +18,14 @@ public class change : MonoBehaviour
             if (col.transform.tag == "Player")
             {
                 SceneManager.LoadScene("Boss Fight");
-            }
+               
+        }
             if (StepCounter.stepCount < 200)
             {
+            
             SceneManager.LoadScene("You Lose");
-            }
+                
+        }
         }
     
 }
